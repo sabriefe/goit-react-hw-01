@@ -1,0 +1,28 @@
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.table {
+    width: 400px;
+    text-align: center;
+    margin-top: 24px;
+}
+.head {
+    background-color: rgba(0, 0, 0, 0.678);
+    color : white;
+}
+.head th {
+    padding: 8px 0;
+}
+.dbody tr:nth-child(2n){
+    background-color: rgba(0, 0, 0, 0.119);
+}
+.dbody td {
+    padding: 4px 0;
+}
