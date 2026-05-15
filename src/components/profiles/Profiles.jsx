@@ -1,4 +1,4 @@
-import css from "../css/Profiles.module.css";
+import css from "./Profiles.module.css";
 
 const Profiles = (props) => {
   return (
